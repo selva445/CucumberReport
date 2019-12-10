@@ -38,11 +38,7 @@ public class StepDefinitions {
 
 	 static WebDriver driver;	
 	 static ATUTestRecorder recorder;
-		
-	//test1
-		//Demo
-	//Demo1
-	//Demo2
+
 		@Before
 	    public static void setUp(Scenario scenario) {
 		
