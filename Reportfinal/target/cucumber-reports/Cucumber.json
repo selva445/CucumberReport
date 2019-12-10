@@ -1,0 +1,250 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 370714257,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Test 1 Pass",
+        "description": "",
+        "id": "demotest;test-1-pass",
+        "after": [
+          {
+            "result": {
+              "duration": 2215030974,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17342893539,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Solera is opened by the user",
+            "match": {
+              "location": "StepDefinitions.the_Solera_SYS_URL_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7191103180,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Officer role as \"MotorOfficer\" to login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MotorOfficer",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinitions.i_enter_the_Claims_officer_credentials_and_login(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41482758564,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "agency is chosen by me as \"QBE Intermediary\" to test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QBE Intermediary",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.i_create_a_Case_with_Agency_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58960411,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify the case status as the following \"Claim Created\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Claim Created",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefinitions.i_verify_the_Case_Created_status_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2124920616,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "thr browser is Closed by me",
+            "match": {
+              "location": "StepDefinitions.i_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TEST_CUC-9"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 33438359,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Test 2 Fail",
+        "description": "",
+        "id": "demotest;test-2-fail",
+        "after": [
+          {
+            "result": {
+              "duration": 2766587077,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11317941333,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Solera is opened by the user",
+            "match": {
+              "location": "StepDefinitions.the_Solera_SYS_URL_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4864617026,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Officer role as \"MotorOfficer\" to login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MotorOfficer",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinitions.i_enter_the_Claims_officer_credentials_and_login(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26862985436,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "agency is chosen by me as \"QBE Intermediary\" to test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QBE Intermediary",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.i_create_a_Case_with_Agency_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54903384,
+              "error_message": "java.lang.AssertionError: expected [Claim Finalized] but found [Claim Created]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:135)\r\n\tat org.testng.Assert.assertEquals(Assert.java:116)\r\n\tat org.testng.Assert.assertEquals(Assert.java:190)\r\n\tat org.testng.Assert.assertEquals(Assert.java:200)\r\n\tat Parallel.StepDefinitions.i_verify_the_Case_Created_status_as(StepDefinitions.java:257)\r\n\tat ✽.Then I verify the case status as the following \"Claim Finalized\"(1_CUC-9,CUC-10.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "I verify the case status as the following \"Claim Finalized\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Claim Finalized",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefinitions.i_verify_the_Case_Created_status_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "thr browser is Closed by me",
+            "match": {
+              "location": "StepDefinitions.i_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@TEST_CUC-10"
+          }
+        ]
+      }
+    ],
+    "name": "demotest",
+    "description": "",
+    "id": "demotest",
+    "keyword": "Feature",
+    "uri": "1_CUC-9,CUC-10.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@CUC-11"
+      }
+    ]
+  }
+]
