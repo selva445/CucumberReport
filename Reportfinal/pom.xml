@@ -93,7 +93,7 @@
     <artifactId>sample</artifactId>
     <version>1.0</version>
     <scope>system</scope>
-    <systemPath>${project.basedir}/src/main/resources/ATUTestRecorder_2.1.jar</systemPath>
+    <systemPath>C:\Users\selvakumar.c\git\CucumberReport\Reportfinal\target\classes\ATUTestRecorder_2.1.jar</systemPath>
 </dependency>
 
 </dependencies>

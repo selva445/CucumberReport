@@ -12,8 +12,7 @@ import org.testng.annotations.BeforeSuite;
 import com.google.common.io.Files;
 import com.vimalselvam.cucumber.listener.Reporter;
 
-import atu.testrecorder.ATUTestRecorder;
-import atu.testrecorder.exceptions.ATUTestRecorderException;
+
 import cucumber.api.CucumberOptions;
 import cucumber.api.Scenario;
 import cucumber.api.junit.Cucumber;
